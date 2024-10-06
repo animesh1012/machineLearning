@@ -68,6 +68,21 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About Project","Predictio
 
 ## Main Page
 if(app_mode=="Home"):
+    st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #181646;  /* Blue background */
+        color: white;
+    }
+    h2, h3 {
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
     st.markdown(''' ## Welcome to the,\n
     ## Music Genre Classification System! 🎶🎧''')
     image_path = "music_genre_home.png"
