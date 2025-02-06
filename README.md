@@ -6,9 +6,6 @@ Welcome to the Machine Learning Projects repository! This collection showcases v
 
 - [Projects](#projects)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Projects
 
